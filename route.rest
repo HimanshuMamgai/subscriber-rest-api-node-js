@@ -16,7 +16,17 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/subscribers/62d8219d43f10e3baed1f76c
+POST https://susbcriber-rest-api-node-js.herokuapp.com/subscribers
+
+
+{
+    "name": "Amazing Person",
+    "subscribedToChannel": "nodeBlog"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/62d82283e3fbe846899e6681
 
 ###
 
