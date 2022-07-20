@@ -1,0 +1,28 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/62d81ca858ea0a4cda40d210
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Amazing Person",
+    "subscribedToChannel": "nodeBlog"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/62d8219d43f10e3baed1f76c
+
+###
+
+PATCH http://localhost:3000/subscribers/62d8219f43f10e3baed1f76e
+Content-Type: application/json
+
+{
+    "name": "New Person"
+}
